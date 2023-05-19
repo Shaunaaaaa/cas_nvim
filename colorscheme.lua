@@ -1,0 +1,5 @@
+-- return "catppuccin"
+-- return "tokyonight-moon"
+return "tokyonight-night"
+-- return "tokyonight-storm"
+-- return "tokyonight-day"

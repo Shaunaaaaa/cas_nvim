@@ -1,0 +1,6 @@
+return {
+  "tzachar/cmp-tabnine",
+  cmd = { "CmpTabnineHub", "CmpTabnineHubUrl" },
+  build = "./install.sh",
+  config = function() require "user.plugins.config.cmp-tabnine" end,
+}

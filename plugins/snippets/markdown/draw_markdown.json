@@ -1,0 +1,541 @@
+{
+  "mermaid": {
+    "prefix": "/mermaid",
+    "body": [
+      "```mermaid$0",
+      "\t<++>",
+      "```"
+    ],
+    "description": "绘图头文件"
+  },
+  "TB": {
+    "prefix": "/ltb",
+    "body": [
+      "TB",
+      "\t<++>"
+    ],
+    "description": "从上向下"
+  },
+  "BT": {
+    "prefix": "/lbt",
+    "body": [
+      "BT",
+      "\t<++>"
+    ],
+    "description": "从下向上"
+  },
+  "RL": {
+    "prefix": "/lrl",
+    "body": [
+      "RL",
+      "\t<++>"
+    ],
+    "description": "从右向左"
+  },
+  "LR": {
+    "prefix": "/llr",
+    "body": [
+      "LR",
+      "\t<++>"
+    ],
+    "description": "从左向右"
+  },
+  "lxj": {
+    "prefix": "/lxj",
+    "body": [
+      "--> <++>"
+    ],
+    "description": "细箭头"
+  },
+  "lxs": {
+    "prefix": "/lxs",
+    "body": [
+      "--- <++>"
+    ],
+    "description": "细实线"
+  },
+  "lxx": {
+    "prefix": "/lxx",
+    "body": [
+      "-.- <++>"
+    ],
+    "description": "细虚线"
+  },
+  "lcj": {
+    "prefix": "/lcj",
+    "body": [
+      "==> <++>"
+    ],
+    "description": "粗箭头"
+  },
+  "lcs": {
+    "prefix": "/lcs",
+    "body": [
+      "=== <++>"
+    ],
+    "description": "粗实线"
+  },
+  "lxwj": {
+    "prefix": "/lxwj",
+    "body": [
+      "--<++>--> <++>"
+    ],
+    "description": "细文本箭头"
+  },
+  "lxws": {
+    "prefix": "/lxws",
+    "body": [
+      "--<++>--- <++>"
+    ],
+    "description": "细文本实线"
+  },
+  "lxwx": {
+    "prefix": "/lxwx",
+    "body": [
+      "-.<++>.- <++>"
+    ],
+    "description": "细文本虚线"
+  },
+  "lcwj": {
+    "prefix": "/lcwj",
+    "body": [
+      "==<++>==> <++>"
+    ],
+    "description": "粗文本箭头"
+  },
+  "lcws": {
+    "prefix": "/lcws",
+    "body": [
+      "==<++>=== <++>"
+    ],
+    "description": "粗文本实线"
+  },
+  "lxyd": {
+    "prefix": "/lxyd",
+    "body": [
+      "--o <++>"
+    ],
+    "description": "细圆头连接单边"
+  },
+  "lxys": {
+    "prefix": "/lxys",
+    "body": [
+      "o--o <++>"
+    ],
+    "description": "细圆头连接俩边"
+  },
+  "lcyd": {
+    "prefix": "/lcyd",
+    "body": [
+      "==o <++>"
+    ],
+    "description": "粗圆头连接单边"
+  },
+  "lcys": {
+    "prefix": "/lcys",
+    "body": [
+      "o==o <++>"
+    ],
+    "description": "粗圆头连接双向"
+  },
+  "lxjs": {
+    "prefix": "/lxjs",
+    "body": [
+      "<--> <++>"
+    ],
+    "description": "细箭头连接双向"
+  },
+  "lcjs": {
+    "prefix": "/lcjs",
+    "body": [
+      "<==> <++>"
+    ],
+    "description": "粗箭头连接双向"
+  },
+  "lxcd": {
+    "prefix": "/lxcd",
+    "body": [
+      "--x <++>"
+    ],
+    "description": "细叉头连接单边"
+  },
+  "lxcs": {
+    "prefix": "/lxcs",
+    "body": [
+      "x--x <++>"
+    ],
+    "description": "细叉头连接俩边"
+  },
+  "lccd": {
+    "prefix": "/lccd",
+    "body": [
+      "==x <++>"
+    ],
+    "description": "粗叉头连接单边"
+  },
+  "lccs": {
+    "prefix": "/lccs",
+    "body": [
+      "x==x <++>"
+    ],
+    "description": "粗叉头连接双向"
+  },
+  "lyb": {
+    "prefix": "/lyb",
+    "body": [
+      "<++>(<++>) <++>"
+    ],
+    "description": "小圆角方形"
+  },
+  "lyj": {
+    "prefix": "/lyj",
+    "body": [
+      "<++>([<++>]) <++>"
+    ],
+    "description": "大圆角方形"
+  },
+  "lyx": {
+    "prefix": "/lyx",
+    "body": [
+      "<++>((<++>)) <++>"
+    ],
+    "description": "正圆形"
+  },
+  "lyz": {
+    "prefix": "/lyz",
+    "body": [
+      "<++>[(<++>)] <++>"
+    ],
+    "description": "圆柱形"
+  },
+  "lbd": {
+    "prefix": "/lbd",
+    "body": [
+      "<++>><++>] <++>"
+    ],
+    "description": "不对称方形"
+  },
+  "llx": {
+    "prefix": "/llx",
+    "body": [
+      "<++>{<++>} <++>"
+    ],
+    "description": "菱形"
+  },
+  "llb": {
+    "prefix": "/llb",
+    "body": [
+      "<++>{{<++>}} <++>"
+    ],
+    "description": "六边形"
+  },
+  "lpxl": {
+    "prefix": "/lpxl",
+    "body": [
+      "<++>[/<++>/] <++>"
+    ],
+    "description": "平行四边形左"
+  },
+  "lpxr": {
+    "prefix": "/lpxr",
+    "body": [
+      "<++>[<++>] <++>"
+    ],
+    "description": "平行四边形右"
+  },
+  "ltx": {
+    "prefix": "/ltx",
+    "body": [
+      "<++>[/<++>\\] <++>"
+    ],
+    "description": "梯形"
+  },
+  "ldtx": {
+    "prefix": "/ldtx",
+    "body": [
+      "<++>[\\<++>/] <++>"
+    ],
+    "description": "倒梯形"
+  },
+  "lzc": {
+    "prefix": "/lzc",
+    "body": [
+      "<++>[[<++>]] <++>"
+    ],
+    "description": "子程序形状"
+  },
+  "lzcx": {
+    "prefix": "/lzcx",
+    "body": [
+      "subgraph $name[<++>]",
+      "\t<++>",
+      "end"
+    ],
+    "description": "子程序形状"
+  },
+  "lstyle1": {
+    "prefix": "/lstyle1",
+    "body": [
+      "style $id fill:#<++>,stroke:#<++>,stroke-width:<++>px"
+    ],
+    "description": "实线样式"
+  },
+  "lstyle2": {
+    "prefix": "/lstyle2",
+    "body": [
+      "style $id2 fill:#<++>,stroke:#<++>,stroke-width:<++>px,color:#<++>,stroke-dasharray: <++> <++>"
+    ],
+    "description": "虚线样式"
+  },
+  "flowchart": {
+    "prefix": "/lct",
+    "body": [
+      "flowchart $0"
+    ],
+    "description": "流程图头文件"
+  },
+  "sparticipant": {
+    "prefix": "/sparticipant",
+    "body": [
+      "participant <++> as <++>"
+    ],
+    "description": "带别名的标签[别名] as [实名]"
+  },
+  "ssx": {
+    "prefix": "/ssx",
+    "body": [
+      "-> <++>"
+    ],
+    "description": "无箭头实线"
+  },
+  "ssxj": {
+    "prefix": "/ssxj",
+    "body": [
+      "->> <++>"
+    ],
+    "description": "有箭头实线"
+  },
+  "sxx": {
+    "prefix": "/sxx",
+    "body": [
+      "--> <++>"
+    ],
+    "description": "无箭头虚线"
+  },
+  "sxxj": {
+    "prefix": "/sxxj",
+    "body": [
+      "-->> <++>"
+    ],
+    "description": "有箭头虚线"
+  },
+  "ssxx": {
+    "prefix": "/ssxx",
+    "body": [
+      "-x <++>"
+    ],
+    "description": "有x实线"
+  },
+  "sxxx": {
+    "prefix": "/sxxx",
+    "body": [
+      "--x <++>"
+    ],
+    "description": "有x虚线"
+  },
+  "swzs": {
+    "prefix": "/swzs",
+    "body": [
+      "<++> -> <++> : <++>"
+    ],
+    "description": "无箭头实线注释"
+  },
+  "syzs": {
+    "prefix": "/syzs",
+    "body": [
+      "<++> ->> <++> : <++>"
+    ],
+    "description": "有箭头实线注释"
+  },
+  "swxs": {
+    "prefix": "/swxs",
+    "body": [
+      "<++> --> <++> : <++>"
+    ],
+    "description": "无箭头虚线注释"
+  },
+  "syxs": {
+    "prefix": "/syxs",
+    "body": [
+      "<++> -->> <++> : <++>"
+    ],
+    "description": "有箭头虚线注释"
+  },
+  "sdsx": {
+    "prefix": "/sdsx",
+    "body": [
+      "<++> -x <++> : <++>"
+    ],
+    "description": "有x头实线注释"
+  },
+  "sdxx": {
+    "prefix": "/sdxx",
+    "body": [
+      "<++> --x <++> : <++>"
+    ],
+    "description": "有x头虚线注释"
+  },
+  "sfor": {
+    "prefix": "/sfor",
+    "body": [
+      "loop <++>",
+      "\t<++>",
+      "end"
+    ],
+    "description": "循环"
+  },
+  "sif": {
+    "prefix": "/sif",
+    "body": [
+      "opt <++>",
+      "\t<++>",
+      "end"
+    ],
+    "description": "没有else的选择"
+  },
+  "sife": {
+    "prefix": "/sife",
+    "body": [
+      "alt <++>",
+      "\t<++>",
+      "else",
+      "\t<++>",
+      "end"
+    ],
+    "description": "有else的选择"
+  },
+  "sact": {
+    "prefix": "/sact",
+    "body": [
+      "<++>->>+<++>:<++>"
+    ],
+    "description": "激活"
+  },
+  "sdea": {
+    "prefix": "/sdea",
+    "body": [
+      "<++>->>-<++>:<++>"
+    ],
+    "description": "停用"
+  },
+  "srzs": {
+    "prefix": "/srzs",
+    "body": [
+      "Note right of <++>: <++>"
+    ],
+    "description": "右批注[标签名]:[批注内容]"
+  },
+  "sozs": {
+    "prefix": "/sozs",
+    "body": [
+      "Note over <++>: <++>"
+    ],
+    "description": "中批注[标签名]:[批注内容]"
+  },
+  "slzs": {
+    "prefix": "/slzs",
+    "body": [
+      "Note left of <++>: <++>"
+    ],
+    "description": "左批注[标签名]:[批注内容]"
+  },
+  "sbxs": {
+    "prefix": "/sbxs",
+    "body": [
+      "par <++> to <++>",
+      "\t<++>",
+      "and <++> to <++>",
+      "\t<++>",
+      "and <++> to <++>",
+      "\t<++>",
+      "end"
+    ],
+    "description": "并行[标签] to [标签]"
+  },
+  "sbx": {
+    "prefix": "/sbx",
+    "body": [
+      "par <++> to <++>",
+      "\t<++>",
+      "and <++> to <++>",
+      "\t<++>",
+      "end"
+    ],
+    "description": "并行[标签] to [标签]"
+  },
+  "sqt": {
+    "prefix": "/sqt",
+    "body": [
+      "par <++> to <++>",
+      "\t<++><++>: <++>",
+      "and <++> to <++>",
+      "\t<++><++><++>: <++>",
+      "\tpar <++> to <++>",
+      "\t\t<++><++><++>: <++>",
+      "and <++> to <++>",
+      "\t<++><++><++>: <++>",
+      "\tend",
+      "end"
+    ],
+    "description": "嵌套"
+  },
+  "scolor": {
+    "prefix": "/scolor",
+    "body": [
+      "rect rgba(<++>, <++>, <++>)",
+      "\t<++>",
+      "end"
+    ],
+    "description": "颜色rect rgba([0~255], [0~255], [1~255])"
+  },
+  "sand": {
+    "prefix": "/sand",
+    "body": [
+      "and <++> to <++>",
+      "\t<++>"
+    ],
+    "description": "and 添加"
+  },
+  "selse": {
+    "prefix": "/selse",
+    "body": [
+      "else",
+      "\t<++>"
+    ],
+    "description": "else 添加"
+  },
+  "smenu": {
+    "prefix": "/smenu",
+    "body": [
+      "participant $1",
+      "links $1: {'<++>': 'https://<++>', '<++>': 'https://<++>'}"
+    ],
+    "description": "菜单：有链接的菜单links [第一级菜单]: {[二级菜单名称]: 'https://[地址]', [二级菜单名称]: 'https://[地址]'}"
+  },
+  "sxt": {
+    "prefix": "/sxt",
+    "body": [
+      "sequenceDiagram$0",
+      "\t<++>"
+    ],
+    "description": "时序图头文件"
+  },
+  "ztt": {
+    "prefix": "/ztt",
+    "body": [
+      "stateDiagram-v2$0",
+      "\t<++>"
+    ],
+    "description": "状态图头文件"
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "begnin": {
+    "prefix": ".begin",
+    "body": [
+      "\\begin{$1}<++>\\end{$1}"
+    ],
+    "description": "\begin{} end{}"
+  },
+  "Insert \\<++>": {
+    "prefix": "2$",
+    "body": [
+      "\\${<++>}\\$"
+    ],
+    "description": "${}$"
+  },
+  "Insert \\$4": {
+    "prefix": "4$",
+    "body": [
+      "\\$\\${<++>}\\$\\$"
+    ],
+    "description": "$${}$$"
+  },
+  "Insert sup": {
+    "prefix": ".sp",
+    "body": [
+      "_{<++>}<++>"
+    ],
+    "description": "下标"
+  },
+  "Insert sub": {
+    "prefix": ".sb",
+    "body": [
+      "^{<++>}<++>"
+    ],
+    "description": "上标"
+  },
+  "Insert color": {
+    "prefix": ".color",
+    "body": [
+      "\\color{#<++>}<++>"
+    ],
+    "description": "颜色"
+  },
+  "alpha": {
+    "prefix": ".alpha",
+    "body": [
+      "\\alpha<++>"
+    ],
+    "description": "希腊符号小写：α"
+  },
+  "Alpha": {
+    "prefix": ".Alpha",
+    "body": [
+      "\\Alpha<++>"
+    ],
+    "description": "希腊符号大写：A"
+  },
+  "beta": {
+    "prefix": ".beta",
+    "body": [
+      "\\beta<++>"
+    ],
+    "description": "希腊符号小写：β"
+  },
+  "Beta": {
+    "prefix": ".Beta",
+    "body": [
+      "\\Beta<++>"
+    ],
+    "description": "希腊符号大写：B"
+  },
+  "gamma": {
+    "prefix": ".gamma",
+    "body": [
+      "\\gamma<++>"
+    ],
+    "description": "希腊符号小写：γ"
+  },
+  "Gamma": {
+    "prefix": ".Gamma",
+    "body": [
+      "\\Gamma<++>"
+    ],
+    "description": "希腊符号大写：Γ"
+  },
+  "delta": {
+    "prefix": ".delta",
+    "body": [
+      "\\delta<++>"
+    ],
+    "description": "希腊符号小写：δ"
+  },
+  "Delta": {
+    "prefix": ".Delta",
+    "body": [
+      "\\Delta<++>"
+    ],
+    "description": "希腊符号大写：Δ"
+  },
+  "theta": {
+    "prefix": ".theta",
+    "body": [
+      "\\theta<++>"
+    ],
+    "description": "希腊符号小写：θ"
+  },
+  "Theta": {
+    "prefix": ".Theta",
+    "body": [
+      "\\Theta<++>"
+    ],
+    "description": "希腊符号大写：Θ"
+  },
+  "lambda": {
+    "prefix": ".lambda",
+    "body": [
+      "\\lambda<++>"
+    ],
+    "description": "希腊符号小写：λ"
+  },
+  "Lambda": {
+    "prefix": ".Lambda",
+    "body": [
+      "\\Lambda<++>"
+    ],
+    "description": "希腊符号大写：Λ"
+  },
+  "mu": {
+    "prefix": ".mu",
+    "body": [
+      "\\mu<++>"
+    ],
+    "description": "希腊符号小写：μ"
+  },
+  "Mu": {
+    "prefix": ".Mu",
+    "body": [
+      "\\Mu<++>"
+    ],
+    "description": "希腊符号大写：M"
+  },
+  "nu": {
+    "prefix": ".nu",
+    "body": [
+      "\\nu<++>"
+    ],
+    "description": "希腊符号小写：ν"
+  },
+  "Nu": {
+    "prefix": ".Nu",
+    "body": [
+      "\\Nu<++>"
+    ],
+    "description": "希腊符号大写：N"
+  },
+  "xi": {
+    "prefix": ".xi",
+    "body": [
+      "\\xi<++>"
+    ],
+    "description": "希腊符号小写：ξ"
+  },
+  "Xi": {
+    "prefix": ".Xi",
+    "body": [
+      "\\Xi<++>"
+    ],
+    "description": "希腊符号大写：Ξ"
+  },
+  "omicron": {
+    "prefix": ".omicron",
+    "body": [
+      "\\omicron<++>"
+    ],
+    "description": "希腊符号小写：ο"
+  },
+  "Omicron": {
+    "prefix": ".Omicron",
+    "body": [
+      "\\Omicron<++>"
+    ],
+    "description": "希腊符号大写：O"
+  },
+  "pi": {
+    "prefix": ".pi",
+    "body": [
+      "\\pi<++>"
+    ],
+    "description": "希腊符号小写：π"
+  },
+  "Pi": {
+    "prefix": ".Pi",
+    "body": [
+      "\\Pi<++>"
+    ],
+    "description": "希腊符号大写：Π"
+  },
+  "rho": {
+    "prefix": ".rho",
+    "body": [
+      "\\rho<++>"
+    ],
+    "description": "希腊符号小写：ρ"
+  },
+  "Rho": {
+    "prefix": ".Rho",
+    "body": [
+      "\\Rho<++>"
+    ],
+    "description": "希腊符号大写：P"
+  },
+  "sigma": {
+    "prefix": ".sigma",
+    "body": [
+      "\\sigma<++>"
+    ],
+    "description": "希腊符号小写：σ"
+  },
+  "Sigma": {
+    "prefix": ".Sigma",
+    "body": [
+      "\\Sigma<++>"
+    ],
+    "description": "希腊符号大写：Σ"
+  },
+  "tau": {
+    "prefix": ".tau",
+    "body": [
+      "\\tau<++>"
+    ],
+    "description": "希腊符号小写：τ"
+  },
+  "Tau": {
+    "prefix": ".Tau",
+    "body": [
+      "\\Tau<++>"
+    ],
+    "description": "希腊符号大写：T"
+  },
+  "upsilon": {
+    "prefix": ".upsilon",
+    "body": [
+      "\\upsilon<++>"
+    ],
+    "description": "希腊符号小写：υ"
+  },
+  "Upsilon": {
+    "prefix": ".Upsilon",
+    "body": [
+      "\\Upsilon<++>"
+    ],
+    "description": "希腊符号大写：Υ"
+  },
+  "phi": {
+    "prefix": ".phi",
+    "body": [
+      "\\phi<++>"
+    ],
+    "description": "希腊符号小写：ϕ"
+  },
+  "Phi": {
+    "prefix": ".Phi",
+    "body": [
+      "\\Phi<++>"
+    ],
+    "description": "希腊符号大写：Φ"
+  },
+  "chi": {
+    "prefix": ".chi",
+    "body": [
+      "\\chi<++>"
+    ],
+    "description": "希腊符号小写：χ"
+  },
+  "Chi": {
+    "prefix": ".Chi",
+    "body": [
+      "\\Chi<++>"
+    ],
+    "description": "希腊符号大写：X"
+  },
+  "psi": {
+    "prefix": ".psi",
+    "body": [
+      "\\psi<++>"
+    ],
+    "description": "希腊符号小写：ψ"
+  },
+  "Psi": {
+    "prefix": ".Psi",
+    "body": [
+      "\\Psi<++>"
+    ],
+    "description": "希腊符号大写：Ψ"
+  },
+  "omega": {
+    "prefix": ".omega",
+    "body": [
+      "\\omega<++>"
+    ],
+    "description": "希腊符号小写：ω"
+  },
+  "Omega": {
+    "prefix": ".Omega",
+    "body": [
+      "\\Omega<++>"
+    ],
+    "description": "希腊符号大写：Ω"
+  },
+  "lim": {
+    "prefix": ".lim",
+    "body": [
+      "\\lim_{<++>-><++>}<++>"
+    ],
+    "description": "数学符号：lim_{}"
+  },
+  "Insert sum": {
+    "prefix": ".sum",
+    "body": [
+      "\\sum<++>"
+    ],
+    "description": "数学符号：求和"
+  },
+  "frca": {
+    "prefix": ".frca",
+    "body": [
+      "\\frac{<++>}{<++>}<++>"
+    ],
+    "description": "数学符号：分数"
+  },
+  "sqrt": {
+    "prefix": ".sqrt",
+    "body": [
+      "\\sqrt[${1}]{<++>}<++>"
+    ],
+    "description": "数学符号：开方"
+  },
+  "textrm": {
+    "prefix": ".textrm",
+    "body": [
+      "\\textrm{<++>}<++>"
+    ],
+    "description": "数学符号：C"
+  },
+  "partial": {
+    "prefix": ".partial",
+    "body": [
+      "\\partial<++>"
+    ],
+    "description": "数学符号：∂"
+  },
+  "int": {
+    "prefix": ".int",
+    "body": [
+      "\\int<++>"
+    ],
+    "description": "数学符号：∫"
+  },
+  "oint": {
+    "prefix": ".oint",
+    "body": [
+      "\\oint<++>"
+    ],
+    "description": "数学符号：∮"
+  },
+  "iint": {
+    "prefix": ".iint",
+    "body": [
+      "\\iint<++>"
+    ],
+    "description": "数学符号：∬ "
+  },
+  "bigcap": {
+    "prefix": ".bigcap",
+    "body": [
+      "\\bigcap<++>"
+    ],
+    "description": "数学符号：⋂ "
+  },
+  "bigcup": {
+    "prefix": ".bigcup",
+    "body": [
+      "\\bigcup<++>"
+    ],
+    "description": "数学符号：⋃ "
+  },
+  "prod": {
+    "prefix": ".prod",
+    "body": [
+      "\\prod<++>"
+    ],
+    "description": "数学符号：∏ "
+  },
+  "rightarrow": {
+    "prefix": ".rightarrow",
+    "body": [
+      "\\rightarrow<++>"
+    ],
+    "description": "数学符号：→"
+  },
+  "leftarrow": {
+    "prefix": ".leftarrow",
+    "body": [
+      "\\leftarrow<++>"
+    ],
+    "description": "数学符号：←"
+  },
+  "uparrow": {
+    "prefix": ".uparrow",
+    "body": [
+      "\\uparrow<++>"
+    ],
+    "description": "数学符号：↑"
+  },
+  "downarrow": {
+    "prefix": ".downarrow",
+    "body": [
+      "\\downarrow<++>"
+    ],
+    "description": "数学符号：↓"
+  },
+  "infty": {
+    "prefix": ".infty",
+    "body": [
+      "\\infty<++>"
+    ],
+    "description": "数学符号：∞"
+  },
+  "||": {
+    "prefix": ".bar",
+    "body": [
+      "\\left|<++>\\right|<++>"
+    ],
+    "description": "数学符号：∣ a∣"
+  },
+  "<>": {
+    "prefix": ".langle",
+    "body": [
+      "\\left \\langle <++> \\right \\rangle<++>"
+    ],
+    "description": "数学符号：⟨a⟩"
+  },
+  "⌊⌋": {
+    "prefix": ".lfloor",
+    "body": [
+      "\\left \\lfloor <++> \\right \\rfloor<++>"
+    ],
+    "description": "数学符号：⌊a⌋"
+  },
+  "⌈⌉": {
+    "prefix": ".lceil",
+    "body": [
+      "\\left \\lceil <++> \\right \\rceil<++>"
+    ],
+    "description": "数学符号：⌈a⌉"
+  },
+  "(kn)": {
+    "prefix": ".binom",
+    "body": [
+      "\\binom{<++>}{<++>}<++>"
+    ],
+    "description": "(kn)"
+  },
+  "{": {
+    "prefix": ".cases",
+    "body": [
+      "cases"
+    ],
+    "description": "{"
+  },
+  "∈": {
+    "prefix": ".in",
+    "body": [
+      "\\in<++>"
+    ],
+    "description": "∈"
+  },
+  "⫆": {
+    "prefix": ".supseteqq",
+    "body": [
+      "\\supseteqq<++>"
+    ],
+    "description": "⫆"
+  },
+  "matrix": {
+    "prefix": ".matrix",
+    "body": [
+      "\\matrix<++>"
+    ],
+    "description": "数学列表参数"
+  },
+  "equal": {
+    "prefix": ".equal",
+    "body": [
+      "\\neq<++>"
+    ],
+    "description": "不等于：!="
+  },
+  "greater or equal": {
+    "prefix": ".goe",
+    "body": [
+      "\\geq<++>"
+    ],
+    "description": "大于或等于：>="
+  },
+  "less or equal": {
+    "prefix": ".loe",
+    "body": [
+      "\\leq<++>"
+    ],
+    "description": "小于或等于：<="
+  },
+  "approx": {
+    "prefix": ".approx",
+    "body": [
+      "\\approx<++>"
+    ],
+    "description": "约等于：≈"
+  },
+  "⋯": {
+    "prefix": ".cdots",
+    "body": [
+      "\\cdots<++>"
+    ],
+    "description": "省略号：⋯"
+  }
+}
