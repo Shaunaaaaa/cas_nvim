@@ -8,7 +8,7 @@ return {
       require("luasnip.loaders.from_vscode").lazy_load { paths = { "./lua/user/plugins/snippets" } } -- load snippets paths
     end,
   },
-  -- 新装插件
+  -- 花式滑动
   {
     "gen740/SmoothCursor.nvim",
     cond = vim.g.neovide == nil,
@@ -33,24 +33,28 @@ return {
       },
     },
   },
-  {
-    "gcmt/wildfire.vim",
-    lazy = false,
-    opts = {
-      autostart = true,
-      fancy = { enable = true },
-    },
-    config = function() end,
-  },
-  {
-    "mg979/vim-visual-multi",
-    lazy = false,
-    opts = {
-      autostart = true,
-      fancy = { enable = true },
-    },
-    config = function() end,
-  },
+  -- {
+  --   "gcmt/wildfire.vim",
+  --   lazy = false,
+  --   opts = {
+  --     autostart = true,
+  --     fancy = { enable = true },
+  --   },
+  --   config = function()
+  --   end,
+  -- },
+  --定义一些vim快捷键
+  -- {
+  --   "mg979/vim-visual-multi",
+  --   lazy = false,
+  --   opts = {
+  --     autostart = true,
+  --     fancy = { enable = true },
+  --   },
+  --   config = function()
+  --   end,
+  -- },
+  --文字在括号中补充括号
   {
     "tpope/vim-surround",
     lazy = false,
@@ -60,6 +64,7 @@ return {
     },
     config = function() end,
   },
+  --定义窗口大小
   {
     "anuvyklack/hydra.nvim",
     lazy = false,
@@ -74,12 +79,14 @@ return {
   --   lazy = false,
   --   config = function() require "user.plugins.config.mutchar" end,
   -- },
+  -- 用不上的插件
   {
     "lervag/vimtex",
     lazy = false,
     cmd = { "VimtexStop", "VimtexCompile" },
     config = function() require "user.plugins.config.vimtex" end,
   },
+  --文字对齐插件
   {
     "junegunn/vim-easy-align",
     lazy = false,
@@ -88,11 +95,11 @@ return {
   --   "github/copilot.vim",
   --   lazy = false,
   -- },
-  -- {
-  --   "codota/tabnine-nvim",
-  --   cmd = { "TabnineStatus", "TabnineDisable", "TabnineEnable", "TabnineToggle" },
-  --   build = "./dl_binaries.sh",
-  -- },
+  {
+    "codota/tabnine-nvim",
+    cmd = { "TabnineStatus", "TabnineDisable", "TabnineEnable", "TabnineToggle" },
+    build = "./dl_binaries.sh",
+  },
   -- {
   --   "vzze/cmdline.nvim",
   --   config = function() require "user.plugins.config.cmdline" end,
@@ -102,6 +109,8 @@ return {
   --   cmd = { "FineCmdline" },
   --   config = function() require "user.plugins.config.fine-cmdline" end,
   -- },
+
+  --悬浮的命令输入框
   {
     "folke/noice.nvim",
     lazy = false,
@@ -128,6 +137,7 @@ return {
       }
     end,
   },
+  -- 使用彩虹括号
   {
     "HiPhish/nvim-ts-rainbow2",
     lazy = false,
