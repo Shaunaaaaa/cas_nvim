@@ -92,15 +92,15 @@ return {
     "junegunn/vim-easy-align",
     lazy = false,
   },
-  -- {
-  --   "github/copilot.vim",
-  --   lazy = false,
-  -- },
   {
-    "codota/tabnine-nvim",
-    cmd = { "TabnineStatus", "TabnineDisable", "TabnineEnable", "TabnineToggle" },
-    build = "./dl_binaries.sh",
+    "github/copilot.vim",
+    lazy = false,
   },
+  -- {
+  --   "codota/tabnine-nvim",
+  --   cmd = { "TabnineStatus", "TabnineDisable", "TabnineEnable", "TabnineToggle" },
+  --   build = "./dl_binaries.sh",
+  -- },
   -- {
   --   "vzze/cmdline.nvim",
   --   config = function() require "user.plugins.config.cmdline" end,

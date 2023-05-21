@@ -88,8 +88,8 @@ return {
           ["<2-LeftMouse>"] = actions.select_entry,
           ["<c-b>"] = actions.scroll_view(-0.25), -- Scroll the view up
           ["<c-f>"] = actions.scroll_view(0.25), -- Scroll the view down
-          ["<tab>"] = actions.select_next_entry,
-          ["<s-tab>"] = actions.select_prev_entry,
+          --["<tab>"] = actions.select_next_entry,
+          --["<s-tab>"] = actions.select_prev_entry,
         },
         file_history_panel = build_keymaps {
           j = actions.next_entry,
@@ -107,8 +107,8 @@ return {
           ["<C-A-d>"] = actions.open_in_diffview, -- Open the entry under the cursor in a diffview
           ["<c-b>"] = actions.scroll_view(-0.25),
           ["<c-f>"] = actions.scroll_view(0.25),
-          ["<tab>"] = actions.select_next_entry,
-          ["<s-tab>"] = actions.select_prev_entry,
+          -- ["<tab>"] = actions.select_next_entry,
+          --["<s-tab>"] = actions.select_prev_entry,
         },
         option_panel = {
           q = actions.close,
