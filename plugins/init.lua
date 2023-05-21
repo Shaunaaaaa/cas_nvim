@@ -4,7 +4,7 @@ return {
     "L3MON4D3/LuaSnip",
     lazy = false,
     config = function(plugin, opts)
-      require "plugins.configs.luasnip"(plugin, opts) -- include the default astronvim config that calls the setup call
+      require "plugins.configs.luasnip" (plugin, opts)                                               -- include the default astronvim config that calls the setup call
       require("luasnip.loaders.from_vscode").lazy_load { paths = { "./lua/user/plugins/snippets" } } -- load snippets paths
     end,
   },
@@ -26,8 +26,8 @@ return {
           { cursor = "●", texthl = "SmoothCursorYellow" },
           { cursor = "●", texthl = "SmoothCursorGreen" },
           { cursor = "•", texthl = "SmoothCursorAqua" },
-          { cursor = ".", texthl = "SmoothCursorBlue" },
-          { cursor = ".", texthl = "SmoothCursorPurple" },
+          { cursor = ".",   texthl = "SmoothCursorBlue" },
+          { cursor = ".",   texthl = "SmoothCursorPurple" },
         },
         tail = { cursor = nil, texthl = "SmoothCursor" },
       },
@@ -62,7 +62,8 @@ return {
       autostart = true,
       fancy = { enable = true },
     },
-    config = function() end,
+    config = function()
+    end,
   },
   --定义窗口大小
   {
@@ -128,11 +129,11 @@ return {
         },
         -- 您可以启用一个预设以便于配置
         presets = {
-          bottom_search = false, -- 使用经典的底部命令行进行搜索
-          command_palette = true, -- 将cmdline和弹出菜单放在一起
+          bottom_search = false,        -- 使用经典的底部命令行进行搜索
+          command_palette = true,       -- 将cmdline和弹出菜单放在一起
           long_message_to_split = true, -- 长消息拆分发送
-          inc_rename = false, -- 启用inc-rename.nvim的输入对话框
-          lsp_doc_border = false, -- 为悬停文档和签名帮助添加边框
+          inc_rename = false,           -- 启用inc-rename.nvim的输入对话框
+          lsp_doc_border = false,       -- 为悬停文档和签名帮助添加边框
         },
       }
     end,
