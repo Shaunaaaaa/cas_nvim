@@ -147,4 +147,9 @@ return {
     },
     config = function() require "user.plugins.config.nvim-ts-rainbow2" end,
   },
+  {
+    "shellRaining/hlchunk.nvim",
+    event = { "UIEnter" },
+    config = function() require "user.plugins.config.hlchunk" end,
+  },
 }
